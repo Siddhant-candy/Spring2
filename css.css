@@ -101,7 +101,6 @@ header nav{
 .flex-container div.st-right{
 	width: 45%;
 }
-
 .flex-container div.st-left{
 	width: 45%;
 }
@@ -139,13 +138,13 @@ div span.st-goal{
 	font-size: 1.6em;
 }
 .st-right p{
-	padding: 5% 10%;
+	padding: 2% 10%;
 }
 div.st-right
 {
 	background-color: white;
 	width: 600px;
-	height: 500px;
+    height: 430px;
 }
 
 .st-right p.heading{background-color: rgba(0,0,0,0.1);
@@ -164,22 +163,22 @@ div.st-right
 	padding-left: 10%;
 }
 
-input{
+form input, .submit{
 	border: 2px solid rgba(0,0,0,0.1);
 	border-radius: 2px;
-	padding: 5px 5px 5px 30px;
+	padding: 5px 2px 5px 30px;
 	background-color: #ffffff;
 	font-size: 140%;
 	width: 100%;
 }
 
 .submit{
-	width: 80%;
-	padding-right: 5%;
-	margin-top: 5%;
+	width: 90%;
+	//padding-right: 5%;
+    margin: 0px auto;
+	margin-top: 0%;
 	margin-bottom: 5%;
-	margin-left: 10%;
-	background-color: #7070db;
+    background-color:rgb(56,123,171);
 }
 
 .bottom{
@@ -306,8 +305,16 @@ article span{
 	background-image: url('images/background3.jpg');
 	color: white;
 	background-size: cover;
-	height: 100%}
-
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.day100 p
+{
+	text-align: center;
+	margin: 50px 50px;
+}
 	
 .cont{
 	  background-color: #F5F4F9;
@@ -317,49 +324,44 @@ article span{
       height: 250px;
 
 }
-.learn{
+/*.learn{
 	width: 50%;
     margin-left: 35%;
     padding-top: 7%;
     padding-bottom: 5%;
 
-}
+}*/
 
 .take{
 	font-size: 2em;
     font-weight: bold;
-    margin-bottom: 4%;
 }
 
 
 .path
 {
- padding-left: 11%;
  font-size: 1.3em;
- margin-bottom: 1%;
 }
 
 .progress{
-	padding-left: 7%;
 	font-size: 1.3em;
 }
 
-.more{
-	width: 140px;
-	height: 50px;
+
+p a{
+	font-weight: 1.3em;
+	padding: 10px 10px 10px 10px;
 	background-color: rgb(102, 255, 103, 0.7);
-	font-weight: bold;
-	padding-left: 3%;
-	padding-top: 2%;
+	font-weight: bold;;
 	border-radius: 5%;
-	margin-left: 18%;
-	margin-top: 7%;
 }
 
-.more:hover{
+.more:hover
+{
 	background-color: rgb(102, 255, 103, 0.5);
 }
-.more a{text-decoration: none;
+.more{
+	text-decoration: none;
 	color: white;
 
 }
@@ -451,43 +453,6 @@ footer div i{
   margin-bottom: 3%;
   
 }
-.learn{
-	width: 50%;
-    margin-left: 35%;
-    padding-top: 7%;
-    padding-bottom: 5%;
 
-}
-
-.take{
-	font-size: 2em;
-    font-weight: bold;
-    margin-bottom: 4%;
-}
-
-
-.path
-{
- padding-left: 11%;
- font-size: 1.3em;
- margin-bottom: 1%;
-}
-
-.progress{
-	padding-left: 3%;
-	font-size: 1.3em;
-}
-
-.more{
-	width: 140px;
-	height: 50px;
-	background-color: rgb(102, 255, 103, 0.7);
-	font-weight: bold;
-	padding-left: 3%;
-	padding-top: 2%;
-	border-radius: 5%;
-	margin-left: 18%;
-	margin-top: 7%;
-}
 
 }
